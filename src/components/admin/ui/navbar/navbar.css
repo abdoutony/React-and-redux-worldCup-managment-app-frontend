@@ -1,0 +1,16 @@
+.navbar {
+  background-color: #f8f8f8;
+  padding: 15px;
+}
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  margin-bottom: 0;
+}
+.navbar ul li {
+  margin: 0 30px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  margin-bottom: 0;
+}

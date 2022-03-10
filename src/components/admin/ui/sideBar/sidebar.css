@@ -1,0 +1,44 @@
+.sidebar {
+  height: 100vh;
+  background-color: #191919;
+  position: fixed;
+  width: 17%;
+  padding: 30px;
+}
+
+.iconColor {
+  color: #ffffff;
+}
+
+.dashLogo {
+  display: flex;
+}
+.dashItems {
+  padding: 30px 0;
+}
+
+.dashItems ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.dashItems ul li {
+  margin: 10px 0;
+}
+
+.dashLink {
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  display: block;
+  text-decoration: none;
+  color: #f8f8f8;
+}
+
+/*.dashItems ul li:nth-child(1) .dashLink {
+  background-color: #ffffff;
+}*/
+.active {
+  background-color: #f8f8f8;
+  color: #191919;
+}
